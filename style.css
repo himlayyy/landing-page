@@ -1,6 +1,7 @@
 body{
     display:flex;
     flex-direction:column;
+    margin:0;
 }
 .header{
     display:flex;
@@ -13,4 +14,33 @@ ul{
 }
 li{
     list-style:none;
+}
+.hero{
+    display:flex;
+}
+.info-content{
+    display:flex;
+    flex-direction:column;    
+}
+.info-pics{
+    display:flex;
+    align-items:center; ;
+}
+.info-pics img{
+    width:175px;
+    height:auto;
+}
+.quote{
+    display:flex;
+}
+.quote-content{
+    display:flex;
+}
+.cta{
+    display:flex;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
